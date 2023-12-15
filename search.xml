@@ -8,7 +8,7 @@
       <link href="/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/"/>
       <url>/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
       
-        <content type="html"><![CDATA[<h1 id="v0-1-1更新说明"><a href="#v0-1-1更新说明" class="headerlink" title="v0.1.1更新说明"></a>v0.1.1更新说明</h1><h2 id="1-更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。2-优化了加载方式。3-解决了发表文章时间错误的bug4-搜索功能"><a href="#1-更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。2-优化了加载方式。3-解决了发表文章时间错误的bug4-搜索功能" class="headerlink" title="1.更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。2.优化了加载方式。3.解决了发表文章时间错误的bug4.搜索功能"></a>1.更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。<br>2.优化了加载方式。<br>3.解决了发表文章时间错误的bug<br>4.搜索功能</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="v0-1-1更新说明"><a href="#v0-1-1更新说明" class="headerlink" title="v0.1.1更新说明"></a>v0.1.1更新说明</h1><p>1.更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。<br>2.优化了加载方式。<br>3.解决了发表文章时间错误的bug<br>4.搜索功能<br>5.背景修改为一图流<br>6.留言板<br>7.页脚的修改</p><p>现在附录下徽标含义</p><table><thead><tr><th>priority</th><th>number</th><th>【可选】过滤器优先级，数值越小，执行越早，默认为10，选填</th></tr></thead><tbody><tr><td>enable.timer</td><td>true&#x2F;false</td><td>【必选】计时器控制开关</td></tr><tr><td>enable.bdage</td><td>true&#x2F;false</td><td>【必选】徽标控制开关</td></tr><tr><td>enable_page</td><td>path</td><td>【可选】填写想要应用的页面,如根目录就填’&#x2F;‘,分类页面就填’&#x2F;categories&#x2F;‘。若要应用于所有页面，就填all，默认为all</td></tr><tr><td>exclude</td><td>path</td><td>【可选】填写想要屏蔽的页面，可以多个。仅当enable_page为’all’时生效。写法见示例。原理是将屏蔽项的内容逐个放到当前路径去匹配，若当前路径包含任一屏蔽项，则不会挂载。</td></tr><tr><td>layout.type</td><td>id&#x2F;class</td><td>【可选】挂载容器类型，填写id或class，不填则默认为id</td></tr><tr><td>layout.name</td><td>text</td><td>【必选】挂载容器名称</td></tr><tr><td>layout.index</td><td>0和正整数</td><td>【可选】前提是layout.type为class，因为同一页面可能有多个class，此项用来确认究竟排在第几个顺位</td></tr><tr><td>runtime_js</td><td>url</td><td>【必选】页脚计时器脚本，可以下载上文填写示例的链接，参照注释和教程：Native JS Timer自行修改。</td></tr><tr><td>runtime_css</td><td>url</td><td>【可选】自定义样式，预留开发者接口，可自行下载。</td></tr><tr><td>swiperpara</td><td>number</td><td>【可选】若非零，则开启轮播功能，此项表示每行最多容纳徽标个数，用来应对徽标过多显得页脚拥挤的问题</td></tr><tr><td>bdageitem.link</td><td>url</td><td>【可选】页脚徽标指向的网站链接</td></tr><tr><td>bdageitem.shields</td><td>url</td><td>【必选】页脚徽标对应的API，API具体写法示例参照教程Add Github Badge</td></tr><tr><td>bdageitem.message</td><td>text</td><td>【可选】页脚徽标悬停时显示的信息</td></tr><tr><td>swiper_css</td><td>url</td><td>【可选】swiper的依赖</td></tr><tr><td>swiper_js</td><td>url</td><td>【可选】swiper的依赖</td></tr><tr><td>swiperbdage_init_js</td><td>url</td><td>【可选】swiper初始化方法</td></tr><tr><td>priority</td><td>number</td><td>【可选】过滤器优先级，数值越小，执行越早，默认为10，选填</td></tr><tr><td>enable.timer</td><td>true&#x2F;false</td><td>【必选】计时器控制开关</td></tr><tr><td>enable.bdage</td><td>true&#x2F;false</td><td>【必选】徽标控制开关</td></tr><tr><td>enable_page</td><td>path</td><td>【可选】填写想要应用的页面,如根目录就填’&#x2F;‘,分类页面就填’&#x2F;categories&#x2F;‘。若要应用于所有页面，就填all，默认为all</td></tr><tr><td>exclude</td><td>path</td><td>【可选】填写想要屏蔽的页面，可以多个。仅当enable_page为’all’时生效。写法见示例。原理是将屏蔽项的内容逐个放到当前路径去匹配，若当前路径包含任一屏蔽项，则不会挂载。</td></tr><tr><td>layout.type</td><td>id&#x2F;class</td><td>【可选】挂载容器类型，填写id或class，不填则默认为id</td></tr><tr><td>layout.name</td><td>text</td><td>【必选】挂载容器名称</td></tr><tr><td>layout.index</td><td>0和正整数</td><td>【可选】前提是layout.type为class，因为同一页面可能有多个class，此项用来确认究竟排在第几个顺位</td></tr><tr><td>runtime_js</td><td>url</td><td>【必选】页脚计时器脚本，可以下载上文填写示例的链接，参照注释和教程：Native JS Timer自行修改。</td></tr><tr><td>runtime_css</td><td>url</td><td>【可选】自定义样式，预留开发者接口，可自行下载。</td></tr><tr><td>swiperpara</td><td>number</td><td>【可选】若非零，则开启轮播功能，此项表示每行最多容纳徽标个数，用来应对徽标过多显得页脚拥挤的问题</td></tr><tr><td>bdageitem.link</td><td>url</td><td>【可选】页脚徽标指向的网站链接</td></tr><tr><td>bdageitem.shields</td><td>url</td><td>【必选】页脚徽标对应的API，API具体写法示例参照教程Add Github Badge</td></tr><tr><td>bdageitem.message</td><td>text</td><td>【可选】页脚徽标悬停时显示的信息</td></tr><tr><td>swiper_css</td><td>url</td><td>【可选】swiper的依赖</td></tr><tr><td>swiper_js</td><td>url</td><td>【可选】swiper的依赖</td></tr><tr><td>swiperbdage_init_js</td><td>url</td><td>【可选】swiper初始化方法</td></tr></tbody></table>]]></content>
       
       
       
@@ -56,9 +56,42 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/hideset.css"/>
+      <url>/css/hideset.css</url>
+      
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;}#page-header {    background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {    background: transparent !important;}#page-header::before {    background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>视频</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -78,22 +111,11 @@
     
     
     <entry>
-      <title>链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[var now = new Date; function createtime() { now.setTime(now.getTime() + 1e3); var e = new Date("12/15/2023 00:00:00"), t = Math.trunc(234e8 + (now - e) / 1e3 * 17), a = (t / 1496e5).toFixed(6), o = new Date("12/15/2023 00:00:00"), n = (now - o) / 1e3 / 60 / 60 / 24, r = Math.floor(n), i = (now - o) / 1e3 / 60 / 60 - 24 * r, s = Math.floor(i); 1 == String(s).length && (s = "0" + s); var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s, l = Math.floor(d); 1 == String(l).length && (l = "0" + l); var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l, b = Math.round(g); 1 == String(b).length && (b = "0" + b); let c = ""; c = s < 18 && s >= 9 ? `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>` : `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>`, document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = c) } setInterval((() => { createtime() }), 1e3);// 日期格式是月日年 ]]></content>
       
     </entry>
     
