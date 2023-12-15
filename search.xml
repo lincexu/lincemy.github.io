@@ -21,6 +21,25 @@
     </entry>
     
     
+    
+    <entry>
+      <title>v0.1.1更新</title>
+      <link href="/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/"/>
+      <url>/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
+      
+        <content type="html"><![CDATA[<h1 id="v0-1-1更新说明"><a href="#v0-1-1更新说明" class="headerlink" title="v0.1.1更新说明"></a>v0.1.1更新说明</h1><p></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
     
@@ -48,9 +67,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>视频</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -59,9 +78,9 @@
     
     
     <entry>
-      <title>视频</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
