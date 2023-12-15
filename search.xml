@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>hello,lince v0.1.0</title>
-      <link href="/2023/12/24/hello,lince/"/>
-      <url>/2023/12/24/hello,lince/</url>
+      <title>v0.1.1更新</title>
+      <link href="/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/"/>
+      <url>/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
       
-        <content type="html"><![CDATA[<h1 id="hello，lince："><a href="#hello，lince：" class="headerlink" title="hello，lince："></a>hello，lince：</h1><h1 id="v0-1-0-更新说明"><a href="#v0-1-0-更新说明" class="headerlink" title="v0.1.0 更新说明"></a>v0.1.0 更新说明</h1><p>1.新增b站，抖音的链接图标<br>2.新增背景图片<br>3.新增随机一言<br>4.新增日志的说明项目<br>5.修改导航栏的置顶方式</p><p>如果不出意外，这应该是发布的第一篇文章。为了避免之后会忘记一些内容，我还是有必要地写下关于文章发表格式的规定。首先，关于标签头部信息的规定：</P><hr><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】页面标题</td></tr><tr><td>date</td><td>【必需】页面创建日期</td></tr><tr><td>type</td><td>【必需】标签、分类和友情链接三个页面需要配置</td></tr><tr><td>updated</td><td>【可选】页面更新日期</td></tr><tr><td>description</td><td>【可选】页面描述</td></tr><tr><td>keywords</td><td>【可选】页面关键字</td></tr><tr><td>comments</td><td>【可选】显示页面评论模块 (默认 true)</td></tr><tr><td>top_img</td><td>【可选】页面顶部图片</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax (当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td>【可选】显示katex (当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开 (true&#x2F;false) (默认为设置中highlight_shrink的配置)</td></tr><tr><td>random</td><td>【可选】配置友情链接是否随机排序（默认为 false）</td></tr></tbody></table><hr><p>接着是关于文章的定义</p><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】文章标题</td></tr><tr><td>date</td><td>【必需】文章创建日期</td></tr><tr><td>updated</td><td>【可选】文章更新日期</td></tr><tr><td>tags</td><td>【可选】文章标签</td></tr><tr><td>categories</td><td>【可选】文章分类</td></tr><tr><td>keywords</td><td>【可选】文章关键字</td></tr><tr><td>description</td><td>【可选】文章描述</td></tr><tr><td>top_img</td><td>【可选】文章顶部图片</td></tr><tr><td>cover</td><td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false&#x2F;图片地址&#x2F;留空)</td></tr><tr><td>comments</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td>toc</td><td>【可选】显示文章TOC(默认为设置中toc的enable配置)</td></tr><tr><td>toc_number</td><td>【可选】显示toc_number(默认为设置中toc的number配置)</td></tr><tr><td>toc_style_simple</td><td>【可选】显示 toc 简洁模式</td></tr><tr><td>copyright</td><td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</td></tr><tr><td>copyright_author</td><td>【可选】文章版权模块的文章作者</td></tr><tr><td>copyright_author_href</td><td>【可选】文章版权模块的文章作者链接</td></tr><tr><td>copyright_url</td><td>【可选】文章版权模块的文章连结链接</td></tr><tr><td>copyright_info</td><td>【可选】文章版权模块的版权声明文字</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>katex</td><td>【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开(true&#x2F;false)(默认为设置中 highlight_shrink 的配置)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>abcjs</td><td>【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )</td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<h1 id="v0-1-1更新说明"><a href="#v0-1-1更新说明" class="headerlink" title="v0.1.1更新说明"></a>v0.1.1更新说明</h1><h2 id="1-更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。2-优化了加载方式。3-解决了发表文章时间错误的bug4-搜索功能"><a href="#1-更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。2-优化了加载方式。3-解决了发表文章时间错误的bug4-搜索功能" class="headerlink" title="1.更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。2.优化了加载方式。3.解决了发表文章时间错误的bug4.搜索功能"></a>1.更新了图片地址url，对网站图库进行了上传图床，暂时保留了本地图库。<br>2.优化了加载方式。<br>3.解决了发表文章时间错误的bug<br>4.搜索功能</h2>]]></content>
       
       
       
@@ -23,11 +23,11 @@
     
     
     <entry>
-      <title>v0.1.1更新</title>
-      <link href="/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/"/>
-      <url>/2023/12/15/v0.1.1%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
+      <title>hello,lince v0.1.0</title>
+      <link href="/2023/12/14/hello,lince/"/>
+      <url>/2023/12/14/hello,lince/</url>
       
-        <content type="html"><![CDATA[<h1 id="v0-1-1更新说明"><a href="#v0-1-1更新说明" class="headerlink" title="v0.1.1更新说明"></a>v0.1.1更新说明</h1><p></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="hello，lince："><a href="#hello，lince：" class="headerlink" title="hello，lince："></a>hello，lince：</h1><h1 id="v0-1-0-更新说明"><a href="#v0-1-0-更新说明" class="headerlink" title="v0.1.0 更新说明"></a>v0.1.0 更新说明</h1><p>1.新增b站，抖音的链接图标<br>2.新增背景图片<br>3.新增随机一言<br>4.新增日志的说明项目<br>5.修改导航栏的置顶方式</p><p>如果不出意外，这应该是发布的第一篇文章。为了避免之后会忘记一些内容，我还是有必要地写下关于文章发表格式的规定。首先，关于标签头部信息的规定：</P><hr><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】页面标题</td></tr><tr><td>date</td><td>【必需】页面创建日期</td></tr><tr><td>type</td><td>【必需】标签、分类和友情链接三个页面需要配置</td></tr><tr><td>updated</td><td>【可选】页面更新日期</td></tr><tr><td>description</td><td>【可选】页面描述</td></tr><tr><td>keywords</td><td>【可选】页面关键字</td></tr><tr><td>comments</td><td>【可选】显示页面评论模块 (默认 true)</td></tr><tr><td>top_img</td><td>【可选】页面顶部图片</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax (当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td>【可选】显示katex (当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开 (true&#x2F;false) (默认为设置中highlight_shrink的配置)</td></tr><tr><td>random</td><td>【可选】配置友情链接是否随机排序（默认为 false）</td></tr></tbody></table><hr><p>接着是关于文章的定义</p><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】文章标题</td></tr><tr><td>date</td><td>【必需】文章创建日期</td></tr><tr><td>updated</td><td>【可选】文章更新日期</td></tr><tr><td>tags</td><td>【可选】文章标签</td></tr><tr><td>categories</td><td>【可选】文章分类</td></tr><tr><td>keywords</td><td>【可选】文章关键字</td></tr><tr><td>description</td><td>【可选】文章描述</td></tr><tr><td>top_img</td><td>【可选】文章顶部图片</td></tr><tr><td>cover</td><td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false&#x2F;图片地址&#x2F;留空)</td></tr><tr><td>comments</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td>toc</td><td>【可选】显示文章TOC(默认为设置中toc的enable配置)</td></tr><tr><td>toc_number</td><td>【可选】显示toc_number(默认为设置中toc的number配置)</td></tr><tr><td>toc_style_simple</td><td>【可选】显示 toc 简洁模式</td></tr><tr><td>copyright</td><td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</td></tr><tr><td>copyright_author</td><td>【可选】文章版权模块的文章作者</td></tr><tr><td>copyright_author_href</td><td>【可选】文章版权模块的文章作者链接</td></tr><tr><td>copyright_url</td><td>【可选】文章版权模块的文章连结链接</td></tr><tr><td>copyright_info</td><td>【可选】文章版权模块的版权声明文字</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>katex</td><td>【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开(true&#x2F;false)(默认为设置中 highlight_shrink 的配置)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>abcjs</td><td>【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )</td></tr></tbody></table>]]></content>
       
       
       
@@ -56,17 +56,6 @@
     
     
     <entry>
-      <title>链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>视频</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
@@ -78,9 +67,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -89,9 +78,20 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
