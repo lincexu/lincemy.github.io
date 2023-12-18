@@ -84,7 +84,7 @@
       <link href="/2023/12/14/v0.1.0%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8Ehello,lince/"/>
       <url>/2023/12/14/v0.1.0%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8Ehello,lince/</url>
       
-        <content type="html"><![CDATA[<h1 id="hello，lince："><a href="#hello，lince：" class="headerlink" title="hello，lince："></a>hello，lince：</h1><h1 id="v0-1-0-更新说明"><a href="#v0-1-0-更新说明" class="headerlink" title="v0.1.0 更新说明"></a>v0.1.0 更新说明</h1><p>1.新增b站，抖音的链接图标<br>2.新增背景图片<br>3.新增随机一言<br>4.新增日志的说明项目<br>5.修改导航栏的置顶方式</p><p><p>如果不出意外，这应该是发布的第一篇文章。<br>为了避免之后会忘记一些内容，我还是有必要地写下关于文章发表格式的规定。<br>首先，关于标签头部信息的规定：&lt;/P&gt;</p><hr><div class="table-container"><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】页面标题</td></tr><tr><td>date</td><td>【必需】页面创建日期</td></tr><tr><td>type</td><td>【必需】标签、分类和友情链接三个页面需要配置</td></tr><tr><td>updated</td><td>【可选】页面更新日期</td></tr><tr><td>description</td><td>【可选】页面描述</td></tr><tr><td>keywords</td><td>【可选】页面关键字</td></tr><tr><td>comments</td><td>【可选】显示页面评论模块 (默认 true)</td></tr><tr><td>top_img</td><td>【可选】页面顶部图片</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax (当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td>【可选】显示katex (当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开 (true/false) (默认为设置中highlight_shrink的配置)</td></tr><tr><td>random</td><td>【可选】配置友情链接是否随机排序（默认为 false）</td></tr></tbody></table></div><hr><p>接着是关于文章的定义</p><div class="table-container"><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】文章标题</td></tr><tr><td>date</td><td>【必需】文章创建日期</td></tr><tr><td>updated</td><td>【可选】文章更新日期</td></tr><tr><td>tags</td><td>【可选】文章标签</td></tr><tr><td>categories</td><td>【可选】文章分类</td></tr><tr><td>keywords</td><td>【可选】文章关键字</td></tr><tr><td>description</td><td>【可选】文章描述</td></tr><tr><td>top_img</td><td>【可选】文章顶部图片</td></tr><tr><td>cover</td><td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)</td></tr><tr><td>comments</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td>toc</td><td>【可选】显示文章TOC(默认为设置中toc的enable配置)</td></tr><tr><td>toc_number</td><td>【可选】显示toc_number(默认为设置中toc的number配置)</td></tr><tr><td>toc_style_simple</td><td>【可选】显示 toc 简洁模式</td></tr><tr><td>copyright</td><td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</td></tr><tr><td>copyright_author</td><td>【可选】文章版权模块的文章作者</td></tr><tr><td>copyright_author_href</td><td>【可选】文章版权模块的文章作者链接</td></tr><tr><td>copyright_url</td><td>【可选】文章版权模块的文章连结链接</td></tr><tr><td>copyright_info</td><td>【可选】文章版权模块的版权声明文字</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>katex</td><td>【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>abcjs</td><td>【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )</td></tr></tbody></table></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="hello，lince："><a href="#hello，lince：" class="headerlink" title="hello，lince："></a>hello，lince：</h1><h2 id="v0-1-0-更新说明"><a href="#v0-1-0-更新说明" class="headerlink" title="v0.1.0 更新说明"></a>v0.1.0 更新说明</h2><p>1.新增b站，抖音的链接图标<br>2.新增背景图片<br>3.新增随机一言<br>4.新增日志的说明项目<br>5.修改导航栏的置顶方式 </p><p>如果不出意外，这应该是发布的第一篇文章。<br>为了避免之后会忘记一些内容，我还是有必要地写下关于文章发表格式的规定。<br>首先，关于标签头部信息的规定：</p><hr><div class="table-container"><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】页面标题</td></tr><tr><td>date</td><td>【必需】页面创建日期</td></tr><tr><td>type</td><td>【必需】标签、分类和友情链接三个页面需要配置</td></tr><tr><td>updated</td><td>【可选】页面更新日期</td></tr><tr><td>description</td><td>【可选】页面描述</td></tr><tr><td>keywords</td><td>【可选】页面关键字</td></tr><tr><td>comments</td><td>【可选】显示页面评论模块 (默认 true)</td></tr><tr><td>top_img</td><td>【可选】页面顶部图片</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax (当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td>【可选】显示katex (当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开 (true/false) (默认为设置中highlight_shrink的配置)</td></tr><tr><td>random</td><td>【可选】配置友情链接是否随机排序（默认为 false）</td></tr></tbody></table></div><hr><p>接着是关于文章的定义</p><div class="table-container"><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】文章标题</td></tr><tr><td>date</td><td>【必需】文章创建日期</td></tr><tr><td>updated</td><td>【可选】文章更新日期</td></tr><tr><td>tags</td><td>【可选】文章标签</td></tr><tr><td>categories</td><td>【可选】文章分类</td></tr><tr><td>keywords</td><td>【可选】文章关键字</td></tr><tr><td>description</td><td>【可选】文章描述</td></tr><tr><td>top_img</td><td>【可选】文章顶部图片</td></tr><tr><td>cover</td><td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)</td></tr><tr><td>comments</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td>toc</td><td>【可选】显示文章TOC(默认为设置中toc的enable配置)</td></tr><tr><td>toc_number</td><td>【可选】显示toc_number(默认为设置中toc的number配置)</td></tr><tr><td>toc_style_simple</td><td>【可选】显示 toc 简洁模式</td></tr><tr><td>copyright</td><td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</td></tr><tr><td>copyright_author</td><td>【可选】文章版权模块的文章作者</td></tr><tr><td>copyright_author_href</td><td>【可选】文章版权模块的文章作者链接</td></tr><tr><td>copyright_url</td><td>【可选】文章版权模块的文章连结链接</td></tr><tr><td>copyright_info</td><td>【可选】文章版权模块的版权声明文字</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>katex</td><td>【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>abcjs</td><td>【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )</td></tr></tbody></table></div>]]></content>
       
       
       <categories>
@@ -102,9 +102,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -113,11 +113,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[var now = new Date;function createtime() {    now.setTime(now.getTime() + 1e3);    var e = new Date("12/15/2023 00:00:00"),        t = Math.trunc(234e8 + (now - e) / 1e3 * 17),        a = (t / 1496e5).toFixed(6), o = new Date("12/15/2023 00:00:00"),        n = (now - o) / 1e3 / 60 / 60 / 24, r = Math.floor(n),        i = (now - o) / 1e3 / 60 / 60 - 24 * r,        s = Math.floor(i); 1 == String(s).length && (s = "0" + s);    var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s, l = Math.floor(d);    1 == String(l).length && (l = "0" + l);    var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,        b = Math.round(g); 1 == String(b).length && (b = "0" + b);    let c = "";    c = s < 18 && s >= 9 ?        `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='行也思君，坐也思君'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>` : `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='梦里面有关于lince与你的回忆'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>`,        document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = c)} setInterval((() => { createtime() }), 1e3);// 日期格式是月日年 ]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -135,9 +135,20 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title></title>
+      <link href="/js/cursor.js"/>
+      <url>/js/cursor.js</url>
+      
+        <content type="html"><![CDATA[// 鼠标样式var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) { }    return "";};class Cursor {    constructor() {        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(255, 180, 42)'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown = e => this.cursor.classList.add("active");        document.onmouseup = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -158,21 +169,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/cursor.js"/>
-      <url>/js/cursor.js</url>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[// 鼠标样式var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) { }    return "";};class Cursor {    constructor() {        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(255, 180, 42)'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown = e => this.cursor.classList.add("active");        document.onmouseup = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>视频</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[var now = new Date;function createtime() {    now.setTime(now.getTime() + 1e3);    var e = new Date("12/15/2023 00:00:00"),        t = Math.trunc(234e8 + (now - e) / 1e3 * 17),        a = (t / 1496e5).toFixed(6), o = new Date("12/15/2023 00:00:00"),        n = (now - o) / 1e3 / 60 / 60 / 24, r = Math.floor(n),        i = (now - o) / 1e3 / 60 / 60 - 24 * r,        s = Math.floor(i); 1 == String(s).length && (s = "0" + s);    var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s, l = Math.floor(d);    1 == String(l).length && (l = "0" + l);    var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,        b = Math.round(g); 1 == String(b).length && (b = "0" + b);    let c = "";    c = s < 18 && s >= 9 ?        `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='行也思君，坐也思君'><br> <div style="font-size:13px;font-weight:bold">本站已经运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>` : `<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='梦里面有关于lince与你的回忆'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>`,        document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = c)} setInterval((() => { createtime() }), 1e3);// 日期格式是月日年 ]]></content>
       
     </entry>
     
@@ -190,9 +190,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>视频</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -201,9 +201,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
