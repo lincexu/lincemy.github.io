@@ -1,3 +1,11 @@
+/* css页面样式库 */
+:root {
+    --trans-light: rgba(255, 255, 255, 0.8);
+    --trans-dark: rgba(25, 25, 25, 0.8);
+    --border-style: 1px solid rgb(217, 217, 217);
+    --backdrop-filter: blur(5px) saturate(150%);
+}
+
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -321,4 +329,175 @@ font-style：设置文本样式。取值：normal:不使用斜体；italic:使�
 #aside-content>.card-widget.card-info>#card-info-btn {
     background-color: #3eb8be;
     border-radius: 8px;
+}
+
+/* 鼠标样式 */
+#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    /* 这里改变跟随的底色 */
+    background: rgb(255, 180, 42);
+    border-radius: 8px;
+    opacity: 0.25;
+    z-index: 10086;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+    opacity: 0;
+}
+
+#cursor.hover {
+    opacity: 0.1;
+    transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+
+/* 页面样式 */
+/* 首页文章卡片 */
+#recent-posts>.recent-post-item {
+    background: var(--trans-light);
+    backdrop-filter: var(--backdrop-filter);
+    border-radius: 25px;
+    border: var(--border-style);
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+    background: var(--trans-light);
+    backdrop-filter: var(--backdrop-filter);
+    border-radius: 18px;
+    border: var(--border-style);
+}
+
+/* 文章页、归档页、普通页面 */
+div#post,
+div#page,
+div#archive {
+    background: var(--trans-light);
+    backdrop-filter: var(--backdrop-filter);
+    border: var(--border-style);
+    border-radius: 20px;
+}
+
+/* 导航栏 */
+#page-header.nav-fixed #nav {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: var(--backdrop-filter);
+}
+
+[data-theme="dark"] #page-header.nav-fixed #nav {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 夜间模式遮罩 */
+[data-theme="dark"] #recent-posts>.recent-post-item,
+[data-theme="dark"] #aside-content .card-widget,
+[data-theme="dark"] div#post,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] div#page {
+    background: var(--trans-dark);
+}
+
+
+/* 夜间模式页脚页头遮罩透明 */
+[data-theme="dark"] #footer::before {
+    background: transparent !important;
+}
+
+[data-theme="dark"] #page-header::before {
+    background: transparent !important;
+}
+
+/* 阅读模式 */
+.read-mode #aside-content .card-widget {
+    background: rgba(158, 204, 171, 0.5) !important;
+}
+
+.read-mode div#post {
+    background: rgba(158, 204, 171, 0.5) !important;
+}
+
+/* 夜间模式下的阅读模式 */
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+    background: rgba(25, 25, 25, 0.9) !important;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .read-mode div#post {
+    background: rgba(25, 25, 25, 0.9) !important;
+    color: #ffffff;
+}
+
+
+/* 进度条加载样式 */
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: 2000;
+    position: fixed;
+    margin: auto;
+    top: 4px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    border-radius: 8px;
+    width: 7rem;
+    background: #eaecf2;
+    border: 1px #e3e8f7;
+    overflow: hidden
+}
+
+.pace-inactive .pace-progress {
+    opacity: 0;
+    transition: .3s ease-in
+}
+
+.pace .pace-progress {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    max-width: 200px;
+    position: absolute;
+    z-index: 2000;
+    display: block;
+    top: 0;
+    right: 100%;
+    height: 100%;
+    width: 100%;
+    /* linear-gradient(to right, #3494e6, #ec6ead) */
+    background: linear-gradient(to right, #43cea2, #3866ca);
+    animation: gradient 2s ease infinite;
+    background-size: 200%
+}
+
+.pace.pace-inactive {
+    opacity: 0;
+    transition: .3s;
+    top: -8px
 }
