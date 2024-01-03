@@ -608,7 +608,7 @@ h6::before {
 /* 评论功能 */
 /* 设置文字内容 :nth-child(1)的作用是选择第几个 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
-    content: '清输入QQ号，会自动获取昵称和头像🐧';
+    content: '可以输入QQ号，会自动获取昵称和头像🐧';
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
