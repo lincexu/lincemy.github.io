@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>2024新年快乐</title>
+      <link href="/2024/02/09/2024%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/"/>
+      <url>/2024/02/09/2024%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2024新年快乐"><a href="#2024新年快乐" class="headerlink" title="2024新年快乐"></a>2024新年快乐</h1><h2 id=""><a href="#" class="headerlink" title=""></a><span class='p orange'>辉溢流光染幕，彩映倒虹皆客。<br/>留问故前人，葳蕤几分神若?<br/>如梦，如梦，今夜火喧烟重。</span></h2><p>此时此刻，外面已经是火树银花，你是否已经准备好了迎接这甲辰龙年？粉饰的时光正要破碎，最初的梦想好像偏航，我们已经遇到越来越多的非吾所愿。<br>未来的路唯有自我。<br>新的一年，我们都要试着好好长大，不要输给风，不要输给雨，不要输给寒冬与炎夏，在少年时应当行你所愿行，见你所愿见，度过所有黑色的时刻。<br>愿梦想不会被梦魇所侵蚀，旧的故事会被新的篇章所代替，所有的努力与付出都能得到应有的回报。<br>原野与山丘不再经历枯黄，溪水保持清澈，鲜花会一直盛开。<br>美好的事物终会纷至沓来，而一切痛苦也将远去。<br>就像枯草旁探出的新芽，溪水也会自我净化，鲜花刚绽出的心蕊。<br>所有的东西都将刻录在记忆的梦泡中——</p><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><span class='p red'>最终，临曦会记住一切。</span></h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 节日 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>v0.2.4更新</title>
       <link href="/2024/01/22/v0.2.4%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/"/>
       <url>/2024/01/22/v0.2.4%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
@@ -254,17 +273,6 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -276,11 +284,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/cursor.js"/>
-      <url>/js/cursor.js</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[// 鼠标样式var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) { }    return "";};class Cursor {    constructor() {        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(255, 180, 42)'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown = e => this.cursor.classList.add("active");        document.onmouseup = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -310,6 +318,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/cursor.js"/>
+      <url>/js/cursor.js</url>
+      
+        <content type="html"><![CDATA[// 鼠标样式var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) { }    return "";};class Cursor {    constructor() {        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(255, 180, 42)'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = { curr: null, prev: null };        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown = e => this.cursor.classList.add("active");        document.onmouseup = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/lunar.js"/>
       <url>/js/lunar.js</url>
       
@@ -332,17 +351,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/starlight.js"/>
-      <url>/js/starlight.js</url>
-      
-        <content type="html"><![CDATA[// 背景星空特效function dark() {    window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;    var n, e, i, h, t = .05, s = document.getElementById("universe"),        o = !0, a = "180,184,240", r = "226,225,142", d = "226,225,224", c = [];    function f() {        n = window.innerWidth,            e = window.innerHeight,            i = .216 * n,            s.setAttribute("width", n),            s.setAttribute("height", e)    }    function u() {        h.clearRect(0, 0, n, e);        for (var t = c.length, i = 0; i < t; i++) {            var s = c[i]; s.move(), s.fadeIn(), s.fadeOut(), s.draw()        }    }    function y() {        this.reset = function () {            this.giant = m(3),                this.comet = !this.giant && !o && m(10),                this.x = l(0, n - 10),                this.y = l(0, e),                this.r = l(1.1, 2.6),                this.dx = l(t, 6 * t) + (this.comet + 1 - 1) * t * l(50, 120) + 2 * t,                this.dy = -l(t, 6 * t) - (this.comet + 1 - 1) * t * l(50, 120), this.fadingOut = null,                this.fadingIn = !0, this.opacity = 0,                this.opacityTresh = l(.2, 1 - .4 * (this.comet + 1 - 1)),                this.do = l(5e-4, .002) + .001 * (this.comet + 1 - 1)        },            this.fadeIn = function () {                this.fadingIn && (this.fadingIn = !(this.opacity > this.opacityTresh),                    this.opacity += this.do)            },            this.fadeOut = function () {                this.fadingOut && (this.fadingOut = !(this.opacity < 0),                    this.opacity -= this.do / 2, (this.x > n || this.y < 0) && (this.fadingOut = !1, this.reset()))            },            this.draw = function () {                if (h.beginPath(), this.giant) h.fillStyle = "rgba(" + a + "," + this.opacity + ")",                    h.arc(this.x, this.y, 2, 0, 2 * Math.PI, !1);                else if (this.comet) {                    h.fillStyle = "rgba(" + d + "," + this.opacity + ")",                        h.arc(this.x, this.y, 1.5, 0, 2 * Math.PI, !1);                    for (var t = 0; t < 30; t++)h.fillStyle = "rgba(" + d + "," + (this.opacity - this.opacity / 20 * t) + ")",                        h.rect(this.x - this.dx / 4 * t, this.y - this.dy / 4 * t - 2, 2, 2), h.fill()                } else h.fillStyle = "rgba(" + r + "," + this.opacity + ")",                    h.rect(this.x, this.y, this.r, this.r); h.closePath(), h.fill()            },            this.move = function () {                this.x += this.dx, this.y += this.dy,                    !1 === this.fadingOut && this.reset(),                    (this.x > n - n / 4 || this.y < 0) && (this.fadingOut = !0)            },            setTimeout(function () { o = !1 }, 50)    }    function m(t) {        return Math.floor(1e3 * Math.random()) + 1 < 10 * t    }    function l(t, i) {        return Math.random() * (i - t) + t    }    f(),        window.addEventListener("resize", f, !1),        function () {            h = s.getContext("2d"); for (var t = 0; t < i; t++)c[t] = new y, c[t].reset(); u()        }(),        function t() { document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark' && u(), window.requestAnimationFrame(t) }()};dark()]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/runtime.js"/>
       <url>/js/runtime.js</url>
       
@@ -354,10 +362,43 @@
     
     <entry>
       <title></title>
+      <link href="/js/starlight.js"/>
+      <url>/js/starlight.js</url>
+      
+        <content type="html"><![CDATA[// 背景星空特效function dark() {    window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;    var n, e, i, h, t = .05, s = document.getElementById("universe"),        o = !0, a = "180,184,240", r = "226,225,142", d = "226,225,224", c = [];    function f() {        n = window.innerWidth,            e = window.innerHeight,            i = .216 * n,            s.setAttribute("width", n),            s.setAttribute("height", e)    }    function u() {        h.clearRect(0, 0, n, e);        for (var t = c.length, i = 0; i < t; i++) {            var s = c[i]; s.move(), s.fadeIn(), s.fadeOut(), s.draw()        }    }    function y() {        this.reset = function () {            this.giant = m(3),                this.comet = !this.giant && !o && m(10),                this.x = l(0, n - 10),                this.y = l(0, e),                this.r = l(1.1, 2.6),                this.dx = l(t, 6 * t) + (this.comet + 1 - 1) * t * l(50, 120) + 2 * t,                this.dy = -l(t, 6 * t) - (this.comet + 1 - 1) * t * l(50, 120), this.fadingOut = null,                this.fadingIn = !0, this.opacity = 0,                this.opacityTresh = l(.2, 1 - .4 * (this.comet + 1 - 1)),                this.do = l(5e-4, .002) + .001 * (this.comet + 1 - 1)        },            this.fadeIn = function () {                this.fadingIn && (this.fadingIn = !(this.opacity > this.opacityTresh),                    this.opacity += this.do)            },            this.fadeOut = function () {                this.fadingOut && (this.fadingOut = !(this.opacity < 0),                    this.opacity -= this.do / 2, (this.x > n || this.y < 0) && (this.fadingOut = !1, this.reset()))            },            this.draw = function () {                if (h.beginPath(), this.giant) h.fillStyle = "rgba(" + a + "," + this.opacity + ")",                    h.arc(this.x, this.y, 2, 0, 2 * Math.PI, !1);                else if (this.comet) {                    h.fillStyle = "rgba(" + d + "," + this.opacity + ")",                        h.arc(this.x, this.y, 1.5, 0, 2 * Math.PI, !1);                    for (var t = 0; t < 30; t++)h.fillStyle = "rgba(" + d + "," + (this.opacity - this.opacity / 20 * t) + ")",                        h.rect(this.x - this.dx / 4 * t, this.y - this.dy / 4 * t - 2, 2, 2), h.fill()                } else h.fillStyle = "rgba(" + r + "," + this.opacity + ")",                    h.rect(this.x, this.y, this.r, this.r); h.closePath(), h.fill()            },            this.move = function () {                this.x += this.dx, this.y += this.dy,                    !1 === this.fadingOut && this.reset(),                    (this.x > n - n / 4 || this.y < 0) && (this.fadingOut = !0)            },            setTimeout(function () { o = !1 }, 50)    }    function m(t) {        return Math.floor(1e3 * Math.random()) + 1 < 10 * t    }    function l(t, i) {        return Math.random() * (i - t) + t    }    f(),        window.addEventListener("resize", f, !1),        function () {            h = s.getContext("2d"); for (var t = 0; t < i; t++)c[t] = new y, c[t].reset(); u()        }(),        function t() { document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark' && u(), window.requestAnimationFrame(t) }()};dark()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/title.js"/>
       <url>/js/title.js</url>
       
         <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '别草可堪游子去——bye,lince';    clearTimeout();  } else {    //返回当前页面时标签显示内容    document.title = '寄梅应为故人来——hello,lince';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>视频</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -378,28 +419,6 @@
       <title>链接</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>视频</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
